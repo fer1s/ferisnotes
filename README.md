@@ -4,7 +4,7 @@ FerisNotes prosta aplikacja do notatek napisana w języku JS. Używa ona React.J
 
 ## Screenshoty
 
-<img src="https://github.com/Ferizzz/ferisnotes/blob/main/screenshots/computer.png" height="600px">
+<img src="https://github.com/Ferizzz/ferisnotes/blob/main/screenshots/computer.png">
 <img src="https://github.com/Ferizzz/ferisnotes/blob/main/screenshots/phone.jpg" height="600px">
 
 
