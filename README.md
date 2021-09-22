@@ -12,10 +12,14 @@ git clone https://github.com/Ferizzz/ferisnotes.git
 cd ferisnotes
 
 cd backend
+```
 
-npm install
+Edytuj plik `.env` i wpisz PORT oraz MongoURL do poprawnego działania aplikacji.
 
-node .
+```bash
+  npm install
+  
+  node .
 ```
 
 I aplikacja jest gotowa do użycia, cały frontend znajduje się w `/backend/public`, jest to build `client'a`.
