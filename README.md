@@ -13,6 +13,8 @@ cd ferisnotes
 
 cd backend
 
+npm install
+
 node .
 ```
 
