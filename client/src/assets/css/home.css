@@ -1,0 +1,61 @@
+.homeContent{
+    padding-top: 40px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.noteListTitle{
+    background-color: rgba(255, 255, 255, 0.020);
+    width: 17vh;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    font-size: 10px;
+    padding: 4px 6px;
+}
+
+.noteList{
+    background-color: rgba(255, 255, 255, 0.020);
+    width: 100%;
+    height: 80vh;
+    border-radius: 0 10px 10px 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.notes{
+    width: 100%;
+    height: 100%;
+}
+.notes .noteCard{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.050);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.noteCard .noteTitle{
+    font-size: 20px;
+}
+.noteCard .noteDesc{
+    color: rgb(131, 131, 131);
+    font-size: 14px;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width:768px) {
+    .homeContent{
+        padding: 0;
+    }
+    .notes .noteCard{
+        height: auto;
+    }
+    .noteListTitle{
+        width: auto;
+    }
+    .noteList{
+        height: auto;
+    }
+}

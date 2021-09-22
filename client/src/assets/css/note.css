@@ -1,0 +1,67 @@
+.noteContent{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.note{
+    background-color: rgba(110, 110, 110, 0.034);
+    height: calc(100vh - 50px);
+    width: 100%;
+    padding: 15px;
+}
+
+.noteTitleContainer{
+    min-height: 50px;
+    max-height: 150px;
+    margin-bottom: 15px;
+}
+
+.noteTitle{
+    width: 100%;
+    min-height: 50px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 24px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.noteBody{
+    outline: none;
+    min-width: 100%;
+    max-width: 100%;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: rgb(211, 210, 210);
+    min-height: calc(86vh - 50px);
+    max-height: calc(86vh - 50px);
+    resize: none;
+}
+
+.save-btn{
+    border: none;
+    color: #fff;
+    padding: 7px 17px;
+    border-radius: 20px;
+    background-color: #4ad66d;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.save-btn:hover{
+    background: #38b156;
+}
+
+@media screen and (max-width:768px) {
+    .noteContent{
+        padding: 0;
+    }
+    .save-btn{
+        margin-bottom: 5px;
+    }
+}
